@@ -7,7 +7,7 @@
     "yarn": ">=1.1.2"
   },
   "scripts": {
-    "test:xApi": "wdio --spec test/specs/example.e2e.js",
+    "spec": "wdio --spec test/specs/example.e2e.js",
     "wdio": "wdio run ./wdio.conf.js"
   },
   "devDependencies": {
